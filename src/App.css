@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.home-main {
+  background-color: #efefef;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-block {
+  min-height: 200px;
+  background: #f7f7f7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.world-banner {
+  min-height: 250px;
+  /* background: url("../public/img/world.jpg");
+  background-position: 100% 100%;
+  background-size: cover; */
+  background-color: #0f07e3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: rgb(1, 0, 9);
 }
 
-.App-link {
-  color: #61dafb;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ff233d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-primary,
+.btn-primary:hover,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus,
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #ff233d;
+  border-color: #ff233d;
+  opacity: 0.85;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
 }

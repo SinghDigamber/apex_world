@@ -1,0 +1,12 @@
+.list-group {
+  max-height: 350px !important;
+  overflow-y: auto;
+}
+
+.remove-search {
+  cursor: pointer;
+}
+
+.list-group li {
+  z-index: 100;
+}
